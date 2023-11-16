@@ -3,7 +3,7 @@ const topics = [
   {
     id: 1,
     description: 'タバコ吸える場所少なすぎだろ!',
-    image: '/public/images/youngman_angry.jpg',
+    image: '/images/youngman_angry.jpg',
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -37,7 +37,7 @@ const topics = [
   {
     id: 2,
     description: '防衛費を増やして有事に備えて欲しい',
-    image: '/public/images/army.jpg',
+    image: '/images/army.jpg',
     detail: '防衛費は議論が複雑です',
     choices: [
       {
@@ -71,7 +71,7 @@ const topics = [
   {
     id: 3,
     description: '娘が幼稚園に入れなかったんだけど！',
-    image: '/public/images/woman_angry.jpg',
+    image: '/images/woman_angry.jpg',
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -105,7 +105,7 @@ const topics = [
   {
     id: 4,
     description: 'ガソリン代が高すぎるよ',
-    image: '/public/images/ossan_confuse.jpg',
+    image: '/images/ossan_confuse.jpg',
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -139,7 +139,7 @@ const topics = [
       {
         id: 5,
         description: '学校の先生が不足しているようです。',
-        image: '/public/images/teacher.jpg',
+        image: '/images/teacher.jpg',
         detail: '教育は国の将来にとって非常に重要です。教師の不足は教育の質に影響を与えるため、適切な対策が必要です。',
         choices: [
           {
@@ -172,7 +172,7 @@ const topics = [
       {
         id: 6,
         description: '最近の食品の安全性が心配です。',
-        image: '/public/images/agriculture.jpg',
+        image: '/images/agriculture.jpg',
         detail: '食の安全は市民の健康に直結する問題です。食品の検査体制を強化し、安全な食品を提供することが求められています。',
         choices: [
           {
@@ -205,7 +205,7 @@ const topics = [
       {
         id: 7,
         description: '電動キックボードを推進したい',
-        image: '/public/images/kickboard.jpg',
+        image: '/images/kickboard.jpg',
         detail: '公共交通機関の利用促進は環境保護にもつながります。より多くの市民が電動キックボードを利用するための施策を検討しましょう。',
         choices: [
           {
@@ -238,7 +238,7 @@ const topics = [
       {
         id: 8,
         description: '緑地が少なくなってきています。',
-        image: '/public/images/oldwoman_confuse.jpg',
+        image: '/images/oldwoman_confuse.jpg',
         detail: '市民の憩いの場である公園や緑地は、都市の環境にも良い影響を与えます。都市の緑化に向けた取り組みを進めましょう。',
         choices: [
           {
@@ -270,7 +270,7 @@ const topics = [
          {
           id: 9,
           description: '副流煙は有害だから、喫煙所を減らして欲しい',
-          image: '/public/images/smoke_dislike.jpg',
+          image: '/images/smoke_dislike.jpg',
           detail: '副流煙は健康被害を与えます',
           choices: [
             {
@@ -302,7 +302,7 @@ const topics = [
            {
             id: 10,
             description: '虐待を受けている子供を助けてあげて欲しい',
-            image: '/public/images/darty_dog.jpg',
+            image: '/images/darty_dog.jpg',
             detail: '虐待は絶対あってはなりません',
             choices: [
               {
@@ -335,7 +335,7 @@ const topics = [
              {
               id: 11,
               description: '温泉で男児の混浴を禁止してください',
-              image: '/public/images/soap.jpg',
+              image: '/images/soap.jpg',
               detail: '規制する年齢を条例で定めているのは38都道府県です。最も厳しい県で7歳以上禁止、規制がない県も存在します',
               choices: [
                 {
@@ -368,7 +368,7 @@ const topics = [
                {
                 id: 12,
                 description: '漁獲高が減って大変です',
-                image: '/public/images/ryoushi.jpg',
+                image: '/images/ryoushi.jpg',
                 detail: '年齢制限は',
                 choices: [
                   {
@@ -400,7 +400,7 @@ const topics = [
                  {
                   id: 13,
                   description: 'ウイルスの流行で病床が逼迫しています',
-                  image: '/public/images/sick.jpg',
+                  image: '/images/sick.jpg',
                   detail: 'コロナ感染者が多すぎてで病院側が患者を受け入れられなかった',
                   choices: [
                     {
@@ -432,7 +432,7 @@ const topics = [
                    {
                     id: 14,
                     description: '強制',
-                    image: '/public/images/QRpay.jpg',
+                    image: '/images/QRpay.jpg',
                     detail: 'あ',
                     choices: [
                       {
@@ -464,7 +464,7 @@ const topics = [
                      {
                       id: 15,
                       description: '選挙演説の声がうるさいです',
-                      image: '/public/images/speech.jpg',
+                      image: '/images/speech.jpg',
                       detail: '選挙演説が騒音トラブルとして話題になったことがあった',
                       choices: [
                         {
