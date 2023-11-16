@@ -1,0 +1,29 @@
+.choices-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #f9f9f9; /* 背景色を少し灰色にしています */
+}
+
+.choices-buttons {
+  margin-top: 10px;
+}
+
+.choice-button {
+  background-color: #007bff; /* 青色の背景 */
+  color: white; /* テキストを白色に */
+  border: none; /* 枠線を無くす */
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; /* 影のトランジションも追加 */
+  box-shadow: 2px 2px 4px #d4d4d4; /* 軽い影をつけて立体感を出します */
+}
+
+.choice-button:hover {
+  background-color: #0056b3; /* hover時は少し濃い青に */
+  box-shadow: 0 0 8px #666; /* hover時の影を強調 */
+}

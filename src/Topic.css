@@ -1,0 +1,65 @@
+.topic {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 左揃え */
+  margin: 20px;
+}
+
+.topic img {
+  width: 80%; /* 画像のサイズを調整 */
+  max-width: 400px; /* 画像の最大サイズを設定 */
+  margin-right: 20px; /* 吹き出しとの間隔 */
+  margin-left: -20px; /* 中央から左に少しオフセット */
+}
+
+.bubble {
+  position: relative;
+  background-color: #f0f0f0;
+  border-radius: 80px;
+  padding: 40px;
+  margin-left: 20px; /* 画像との間隔 */
+  max-width: 70%; /* 吹き出しの最大幅 */
+  box-shadow: 10px 5px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1.3rem;
+}
+
+/* 吹き出しのしっぽを追加 */
+.bubble::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -60px; /* 吹き出しの左側に配置 */
+  border-width: 25px;
+  border-style: solid;
+  border-color: transparent rgb(0, 0, 0,0.1) transparent transparent;
+  transform: translateY(-50%);
+}
+
+.detail-button {
+  padding: 10px 20px;
+  margin-top: 20px; /* ボタン上の余白 */
+  background-color: #4CAF50; /* ボタン背景色 */
+  color: white; /* ボタン文字色 */
+  border: none; /* ボーダー削除 */
+  border-radius: 20px; /* 角丸形状 */
+  cursor: pointer; /* カーソルをポインタに */
+  outline: none; /* アウトライン削除 */
+}
+
+.detail-button:hover {
+  background-color: #367c39; /* ホバー時の背景色変更 */
+}
+
+.detail-text {
+  display: none; /* デフォルトでは非表示 */
+  margin-top: 20px; /* テキスト上の余白 */
+  background-color: #e0e0e0; /* 背景色 */
+  padding: 20px; /* パディング */
+  border-radius: 10px; /* 角丸形状 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影をつける */
+}
+
+/* 詳細情報を表示するクラス */
+.show-detail {
+  display: block; /* 詳細テキストを表示 */
+}

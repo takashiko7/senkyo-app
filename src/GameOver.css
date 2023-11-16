@@ -1,0 +1,34 @@
+.game-over {
+  position: fixed; /* 要素を画面に固定 */
+  top: 0;
+  left: 0;
+  width: 100vw; /* ビューポートの幅全体 */
+  height: 100vh; /* ビューポートの高さ全体 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(242, 222, 222, 0.9); /* 半透明の背景 */
+  color: #a94442;
+  z-index: 1000; /* 他の要素より前面に表示 */
+}
+
+.game-over h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  font-family: "MS Pゴシック" ;
+}
+
+.game-over button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #a94442;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game-over button:hover {
+  background-color: #892e2e;
+}

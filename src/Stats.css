@@ -1,0 +1,41 @@
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(193, 153, 225, 0.656);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rate-section, .budget-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.rate-bar-container {
+  margin-bottom: 10px;
+}
+
+.rate-bar-container span {
+  margin-right: 10px;
+}
+
+.rate-bar-background {
+  background-color: #ddd; /* 背景色を薄い灰色に設定 */
+  width: 100%; /* 背景の長さを最大に */
+  height: 20px;
+}
+
+.rate-bar {
+  height: 100%;
+  transition: width 0.5s ease; /* 棒グラフの幅の変更にアニメーションを追加 */
+}
+
+.budget-bar-container img {
+  max-width: 100%; /* 画像がコンテナを超えないように */
+  height: auto; /* アスペクト比を保持 */
+  transition: width 0.5s ease; /* サイズ変更のアニメーション */
+}
+
+/* 追加のスタイルが必要な場合はここに書く */

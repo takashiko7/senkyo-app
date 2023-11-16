@@ -1,0 +1,55 @@
+/* Game.css */
+
+.game-screen {
+  padding: 20px;
+  text-align: center;
+}
+
+.start-screen {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(253, 13, 213, 0.286); /* 明るいブルーの背景色を透明度を下げて設定 */
+  color: white; /* テキストの色を白に */
+  min-height: 100vh; /* ビューポートの高さを全体に */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/images/start-background.jpg); /* 背景画像 */
+  background-size: cover; /* 背景画像をカバーするように */
+  background-position: center;
+  background-blend-mode: overlay; /* 背景画像と色のブレンド */
+}
+
+h1 {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Arial', sans-serif; /* ポップなフォントスタイル */
+  font-size: 4rem; /* サイズを大きくして読みやすく */
+  margin-bottom: 6rem; /* 余白を増やして読みやすく */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* テキストに影をつけて読みやすく */
+}
+
+p {
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Arial', sans-serif;
+  font-size: 2rem; /* サイズを少し大きく */
+  margin-bottom: 3rem; /* 余白を増やす */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* テキストに影をつけて読みやすく */
+}
+
+button {
+  padding: 15px 30px; /* ボタンを大きくして目立たせる */
+  border: none;
+  border-radius: 5px;
+  background-color: #ffc107; /* 明るいイエローのボタン色 */
+  color: black; /* ボタンのテキスト色を黒に */
+  font-size: 1.5rem; /* フォントサイズを大きくして読みやすく */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* 影のトランジションを追加 */
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2); /* ボタンに影をつけて立体感を出す */
+}
+
+button:hover {
+  transform: scale(1.05); /* ホバー時にボタンをわずかに拡大 */
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4); /* ホバー時に影を強調 */
+}
+
+/* 以下に他のスタイルを追加 */
