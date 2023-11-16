@@ -31,7 +31,7 @@ const Stats = ({ supportRates, budget }) => {
       <div className="budget-section">
         <h2>予算</h2>
         <div className="budget-bar-container">
-          <img src="/images/budget.jpg" alt="予算" style={{ width: `${budgetPercent}%` }} />
+          <img src="/public/images/budget.jpg" alt="予算" style={{ width: `${budgetPercent}%` }} />
         </div>
         <span>残り予算: ¥{budget}億</span>
       </div>
