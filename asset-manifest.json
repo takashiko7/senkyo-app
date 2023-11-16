@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/senkyo-app/static/css/main.3f651f94.css",
+    "main.js": "/senkyo-app/static/js/main.7ccbde99.js",
+    "static/media/start-background.jpg": "/senkyo-app/static/media/start-background.36962d144d86296999cb.jpg",
+    "index.html": "/senkyo-app/index.html",
+    "main.3f651f94.css.map": "/senkyo-app/static/css/main.3f651f94.css.map",
+    "main.7ccbde99.js.map": "/senkyo-app/static/js/main.7ccbde99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f651f94.css",
+    "static/js/main.7ccbde99.js"
+  ]
+}
