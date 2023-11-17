@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/senkyo-app/static/css/main.c25f3c75.css",
-    "main.js": "/senkyo-app/static/js/main.ea3003c2.js",
+    "main.css": "/senkyo-app/static/css/main.e971541d.css",
+    "main.js": "/senkyo-app/static/js/main.20630c42.js",
     "static/media/start-background.jpg": "/senkyo-app/static/media/start-background.36962d144d86296999cb.jpg",
     "static/media/budget.jpg": "/senkyo-app/static/media/budget.e5b74daa7af5f4f98a6f.jpg",
     "static/media/ryoushi.jpg": "/senkyo-app/static/media/ryoushi.48b99199b079070b7990.jpg",
@@ -20,11 +20,11 @@
     "static/media/oldwoman_confuse.jpg": "/senkyo-app/static/media/oldwoman_confuse.d0031b469df2d7ad6ac9.jpg",
     "static/media/woman_angry.jpg": "/senkyo-app/static/media/woman_angry.cfc7ce8609279c110a78.jpg",
     "index.html": "/senkyo-app/index.html",
-    "main.c25f3c75.css.map": "/senkyo-app/static/css/main.c25f3c75.css.map",
-    "main.ea3003c2.js.map": "/senkyo-app/static/js/main.ea3003c2.js.map"
+    "main.e971541d.css.map": "/senkyo-app/static/css/main.e971541d.css.map",
+    "main.20630c42.js.map": "/senkyo-app/static/js/main.20630c42.js.map"
   },
   "entrypoints": [
-    "static/css/main.c25f3c75.css",
-    "static/js/main.ea3003c2.js"
+    "static/css/main.e971541d.css",
+    "static/js/main.20630c42.js"
   ]
 }
