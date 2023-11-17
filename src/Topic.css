@@ -63,3 +63,51 @@
 .show-detail {
   display: block; /* 詳細テキストを表示 */
 }
+
+/* タブレット画面 (768px 以下) */
+@media (max-width: 768px) {
+  .topic img {
+    max-width: 300px; /* 画像の最大サイズを小さくする */
+  }
+
+  .bubble {
+    max-width: 80%; /* 吹き出しの最大幅を大きくする */
+    padding: 30px; /* パディングを調整 */
+  }
+
+  .bubble::after {
+    left: -40px; /* 吹き出しのしっぽの位置を調整 */
+  }
+
+  .detail-button {
+    padding: 8px 16px; /* ボタンのパディングを調整 */
+  }
+
+  .detail-text {
+    padding: 15px; /* テキストのパディングを調整 */
+  }
+}
+
+/* スマートフォン画面 (480px 以下) のスタイル */
+@media (max-width: 480px) {
+  .topic {
+    flex-direction: column; /* アイテムを縦に並べる */
+  }
+
+  .topic img {
+    width: 100%; /* 画像を親コンテナの100%の幅に */
+    max-width: none; /* 最大幅の制限を解除 */
+    margin-bottom: 20px; /* 画像と吹き出しの間のマージン */
+  }
+
+  .bubble {
+    max-width: 100%; /* 吹き出しの最大幅を親コンテナの幅に */
+    font-size: 1.4rem; /* フォントサイズを大きくして読みやすく */
+    padding: 20px; /* パディングを調整 */
+  }
+
+  /* 吹き出しのしっぽを非表示に */
+  .bubble::after {
+    display: none;
+  }
+}

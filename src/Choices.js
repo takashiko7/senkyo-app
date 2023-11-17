@@ -9,7 +9,7 @@ const Choices = ({ choices, onChoiceMade }) => {
 
   return (
     <div className="choices-container">
-      <h3>選択肢</h3>
+      <h3>政策を選んで下さい</h3>
       <div className="choices-buttons">
         {choices.map((choice, index) => (
           <button

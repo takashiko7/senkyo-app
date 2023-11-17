@@ -53,3 +53,39 @@ button:hover {
 }
 
 /* 以下に他のスタイルを追加 */
+
+/* タブレットサイズ (768px 以下) のスタイル */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem; /* タブレットサイズでのフォントサイズを小さく */
+    margin-bottom: 4rem; /* 余白を調整 */
+  }
+
+  p {
+    font-size: 1.5rem; /* タブレットサイズでのフォントサイズを小さく */
+    margin-bottom: 2rem; /* 余白を調整 */
+  }
+
+  button {
+    padding: 12px 24px; /* ボタンのサイズを小さく */
+    font-size: 1.2rem; /* ボタンのフォントサイズを小さく */
+  }
+}
+
+/* スマートフォンサイズ (480px 以下) のスタイル */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem; /* スマートフォンサイズでのフォントサイズをさらに小さく */
+    margin-bottom: 3rem; /* 余白をさらに調整 */
+  }
+
+  p {
+    font-size: 1.2rem; /* スマートフォンサイズでのフォントサイズをさらに小さく */
+    margin-bottom: 1.5rem; /* 余白をさらに調整 */
+  }
+
+  button {
+    padding: 10px 20px; /* スマートフォンサイズでのボタンのサイズをさらに小さく */
+    font-size: 1rem; /* スマートフォンサイズでのボタンのフォントサイズをさらに小さく */
+  }
+}
