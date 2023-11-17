@@ -39,3 +39,24 @@
 }
 
 /* 追加のスタイルが必要な場合はここに書く */
+/* スマートフォンサイズ (480px以下) のスタイル */
+@media (max-width: 480px) {
+  .stats-container {
+    flex-direction: column; /* スマートフォンでは縦に並べる */
+    align-items: center; /* 中央揃えにする */
+  }
+
+  .rate-section, .budget-section {
+    margin-bottom: 10px; /* 余白を追加 */
+    width: 100%; /* 幅を画面幅に合わせる */
+  }
+
+  .rate-bar-container, .budget-bar-container {
+    width: 90%; /* スマートフォンでは幅を少し狭く */
+  }
+
+  .budget-bar-container img {
+    width: 80%; /* 画像のサイズを調整 */
+    max-height: 20px; /* 高さを制限 */
+  }
+}

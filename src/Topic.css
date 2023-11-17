@@ -95,14 +95,15 @@
   }
 
   .topic img {
-    width: 100%; /* 画像を親コンテナの100%の幅に */
+    width: 80%; /* 画像を親コンテナの100%の幅に */
     max-width: none; /* 最大幅の制限を解除 */
     margin-bottom: 20px; /* 画像と吹き出しの間のマージン */
+    align-items: center;
   }
 
   .bubble {
     max-width: 100%; /* 吹き出しの最大幅を親コンテナの幅に */
-    font-size: 1.4rem; /* フォントサイズを大きくして読みやすく */
+    font-size: 1.5rem; /* フォントサイズを大きくして読みやすく */
     padding: 20px; /* パディングを調整 */
   }
 
