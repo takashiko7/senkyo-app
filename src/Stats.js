@@ -1,5 +1,7 @@
 import React from 'react';
 import './Stats.css';
+import budgetImage from './assets/budget.jpg';
+
 
 const getBarColor = (percentage) => {
   if (percentage <= 20) return '#ff4d4f'; // 赤色
@@ -31,7 +33,7 @@ const Stats = ({ supportRates, budget }) => {
       <div className="budget-section">
         <h2>予算</h2>
         <div className="budget-bar-container">
-          <img src="/public/images/budget.jpg" alt="予算" style={{ width: `${budgetPercent}%` }} />
+          <img src={budgetImage} alt="予算" style={{ width: `${budgetPercent}%` }} />
         </div>
         <span>残り予算: ¥{budget}億</span>
       </div>

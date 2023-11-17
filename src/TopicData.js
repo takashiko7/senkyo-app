@@ -1,9 +1,28 @@
+import youngman_angry from './assets/youngman_angry.jpg';
+import army from './assets/army.jpg';
+import woman_angry from './assets/woman_angry.jpg';
+import ossan_confuse from './assets/ossan_confuse.jpg';
+import speech from './assets/speech.jpg';
+import teacher from './assets/teacher.jpg';
+import agriculture from './assets/agriculture.jpg';
+import kickboard from './assets/kickboard.jpg';
+import oldwoman_confuse from './assets/oldwoman_confuse.jpg';
+import smoke_dislike from './assets/smoke_dislike.jpg';
+import darty_dog from './assets/darty_dog.jpg';
+import soap from './assets/soap.jpg';
+import ryoushi from './assets/ryoushi.jpg';
+import sick from './assets/sick.jpg';
+import QRpay from './assets/QRpay.jpg';
+
+
+
+
 //表示される問題
 const topics = [
   {
     id: 1,
     description: 'タバコ吸える場所少なすぎだろ!',
-    image: '/images/youngman_angry.jpg',
+    image: youngman_angry,
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -17,7 +36,7 @@ const topics = [
       {
         text: 'たばこの税率を上げる',
         effect: {
-          budget: 100,
+          budget: 1000,
           youth: -3,
           elderly: -2
         }
@@ -37,7 +56,7 @@ const topics = [
   {
     id: 2,
     description: '防衛費を増やして有事に備えて欲しい',
-    image: '/images/army.jpg',
+    image: army,
     detail: '防衛費は議論が複雑です',
     choices: [
       {
@@ -51,7 +70,7 @@ const topics = [
       {
         text: '防衛費を減らす',
         effect: {
-          budget: 100,
+          budget: 1000,
           youth: 5,
           elderly: 5
         }
@@ -71,7 +90,7 @@ const topics = [
   {
     id: 3,
     description: '娘が幼稚園に入れなかったんだけど！',
-    image: '/images/woman_angry.jpg',
+    image: woman_angry,
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -105,7 +124,7 @@ const topics = [
   {
     id: 4,
     description: 'ガソリン代が高すぎるよ',
-    image: '/images/ossan_confuse.jpg',
+    image: ossan_confuse,
     detail: '公共の場ではタバコを吸うことができませんが、喫煙者にとっては不便です。喫煙スペースの設置や税率の調整によって、この問題に対処することが可能です。',
     choices: [
       {
@@ -139,7 +158,7 @@ const topics = [
       {
         id: 5,
         description: '学校の先生が不足しているようです。',
-        image: '/images/teacher.jpg',
+        image: teacher,
         detail: '教育は国の将来にとって非常に重要です。教師の不足は教育の質に影響を与えるため、適切な対策が必要です。',
         choices: [
           {
@@ -172,7 +191,7 @@ const topics = [
       {
         id: 6,
         description: '最近の食品の安全性が心配です。',
-        image: '/images/agriculture.jpg',
+        image: agriculture,
         detail: '食の安全は市民の健康に直結する問題です。食品の検査体制を強化し、安全な食品を提供することが求められています。',
         choices: [
           {
@@ -205,7 +224,7 @@ const topics = [
       {
         id: 7,
         description: '電動キックボードを推進したい',
-        image: '/images/kickboard.jpg',
+        image: kickboard,
         detail: '公共交通機関の利用促進は環境保護にもつながります。より多くの市民が電動キックボードを利用するための施策を検討しましょう。',
         choices: [
           {
@@ -238,7 +257,7 @@ const topics = [
       {
         id: 8,
         description: '緑地が少なくなってきています。',
-        image: '/images/oldwoman_confuse.jpg',
+        image: oldwoman_confuse,
         detail: '市民の憩いの場である公園や緑地は、都市の環境にも良い影響を与えます。都市の緑化に向けた取り組みを進めましょう。',
         choices: [
           {
@@ -270,7 +289,7 @@ const topics = [
          {
           id: 9,
           description: '副流煙は有害だから、喫煙所を減らして欲しい',
-          image: '/images/smoke_dislike.jpg',
+          image: smoke_dislike,
           detail: '副流煙は健康被害を与えます',
           choices: [
             {
@@ -284,7 +303,7 @@ const topics = [
             {
               text: 'タバコ税を増税する',
               effect: {
-                budget: 200,
+                budget: 500,
                 youth: -5,
                 elderly:-10
               }
@@ -302,7 +321,7 @@ const topics = [
            {
             id: 10,
             description: '虐待を受けている子供を助けてあげて欲しい',
-            image: '/images/darty_dog.jpg',
+            image: darty_dog,
             detail: '虐待は絶対あってはなりません',
             choices: [
               {
@@ -335,7 +354,7 @@ const topics = [
              {
               id: 11,
               description: '温泉で男児の混浴を禁止してください',
-              image: '/images/soap.jpg',
+              image: soap,
               detail: '規制する年齢を条例で定めているのは38都道府県です。最も厳しい県で7歳以上禁止、規制がない県も存在します',
               choices: [
                 {
@@ -368,7 +387,7 @@ const topics = [
                {
                 id: 12,
                 description: '漁獲高が減って大変です',
-                image: '/images/ryoushi.jpg',
+                image: ryoushi,
                 detail: '年齢制限は',
                 choices: [
                   {
@@ -382,7 +401,7 @@ const topics = [
                   {
                     text: '事業者に補助金を配る',
                     effect: {
-                      budget: -100,
+                      budget: -200,
                       youth: -100,
                       elderly:-5
                     }
@@ -400,7 +419,7 @@ const topics = [
                  {
                   id: 13,
                   description: 'ウイルスの流行で病床が逼迫しています',
-                  image: '/images/sick.jpg',
+                  image: sick,
                   detail: 'コロナ感染者が多すぎてで病院側が患者を受け入れられなかった',
                   choices: [
                     {
@@ -432,13 +451,13 @@ const topics = [
                    {
                     id: 14,
                     description: '強制',
-                    image: '/images/QRpay.jpg',
+                    image: QRpay,
                     detail: 'あ',
                     choices: [
                       {
                         text: 'クリア',
                         effect: {
-                          budget: 100,
+                          budget: 1000,
                           youth: 100,
                           elderly: 100
                         }
@@ -446,7 +465,7 @@ const topics = [
                       {
                         text: 'ゲームオーバー',
                         effect: {
-                          budget: -100,
+                          budget: -1000,
                           youth: -100,
                           elderly:-100
                         }
@@ -464,7 +483,7 @@ const topics = [
                      {
                       id: 15,
                       description: '選挙演説の声がうるさいです',
-                      image: '/images/speech.jpg',
+                      image: speech,
                       detail: '選挙演説が騒音トラブルとして話題になったことがあった',
                       choices: [
                         {

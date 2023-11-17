@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/public/images/start-background.jpg); /* 背景画像 */
+  background-image: url('/public/start-background.jpg'); /* 背景画像 */
   background-size: cover; /* 背景画像をカバーするように */
   background-position: center;
   background-blend-mode: overlay; /* 背景画像と色のブレンド */
