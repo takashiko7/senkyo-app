@@ -110,4 +110,8 @@
   .bubble::after {
     display: none;
   }
+
+  .detail-text {
+    font-size: 0.9rem; /* フォントサイズを大きくして読みやすく */
+  }
 }
